@@ -177,6 +177,15 @@ nav li {
 }
 
 
+@media screen and ( max-width: 37.49em ) {
+
+    h1 {
+        font-size: 54px;
+        font-size: 5.4rem;
+    }
+}
+
+
 /**
  * ------------------------------------------------------------- 
  * Links
@@ -208,7 +217,7 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 50%;
+    min-width: 60%;
     padding: 0.5em 0;
 }
 
@@ -356,6 +365,10 @@ footer ul {
     justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 5em;
+}
+
+footer ul li {
+    padding: 0.5em 0;
 }
 
 
