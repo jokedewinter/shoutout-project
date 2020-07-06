@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <title>Exhibition gallery | Shout out project</title>
+	
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/screen.css">
+
+</head>
+
+
+<body>
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="home" viewBox="0 0 32 32">
+            <title>Home</title>
+            <desc>Return to the home page</desc>
+            <path fill-rule="evenodd" stroke="none" stroke-width="1" d="M23.9827155,14.6218396 C23.9306318,14.7433683 23.8091031,14.8128133 23.6875743,14.8128133 L22.1250622,14.8128133 L22.1250622,21.6878666 C22.1250622,21.8614791 21.9861722,22.0003691 21.8125598,22.0003691 L18.6875355,22.0003691 C18.5139231,22.0003691 18.3750331,21.8614791 18.3750331,21.6878666 L18.3750331,16.3753254 L14.625004,16.3753254 L14.625004,21.6878666 C14.625004,21.8614791 14.486114,22.0003691 14.3125016,22.0003691 L11.1874773,22.0003691 C11.0138649,22.0003691 10.8749749,21.8614791 10.8749749,21.6878666 L10.8749749,14.8128133 L9.31246278,14.8128133 C9.19093405,14.8128133 9.06940533,14.7433683 9.0173216,14.6218396 C8.9825991,14.5003109 8.99996035,14.3787821 9.08676658,14.2746147 L16.2743224,7.08705889 C16.3958511,6.96553017 16.604186,6.96553017 16.7257147,7.08705889 L23.9132705,14.2746147 C24.0000768,14.3787821 24.017438,14.5003109 23.9827155,14.6218396 Z"/>
+        </symbol>
+        
+        <symbol id="audio" viewBox="0 0 32 32">
+            <title>Audio</title>
+        	<desc>Play audio</desc>
+            <path fill-rule="nonzero" stroke="none" stroke-width="1" d="M10.527832,22.9145508 C10.9995117,23.0307617 11.5110677,23.031901 12.0625,22.9179687 C12.9329427,22.7539062 13.6609701,22.3562826 14.246582,21.7250977 C14.832194,21.0939128 15.125,20.3522135 15.125,19.5 L15.125,14.25 L21.5439453,12.7939453 L21.5439453,16.2939453 L21.1201172,16.2939453 C20.7783203,16.2939453 20.3841146,16.3372396 19.9375,16.4238281 C19.0989583,16.5833333 18.3789062,16.9638672 17.7773438,17.5654297 C17.1757812,18.1669922 16.875,18.7913411 16.875,19.4384766 C16.875,19.8623047 17.0117188,20.226888 17.2851562,20.5322266 C17.5585938,20.8375651 17.9311523,21.0483398 18.402832,21.1645508 C18.8745117,21.2807617 19.3860677,21.281901 19.9375,21.1679687 C20.8079427,21.0039062 21.5359701,20.6062826 22.121582,19.9750977 C22.707194,19.3439128 23,18.6022135 23,17.75 L23,9 L13.6666667,11 C13.6681858,11.3422309 13.6689453,11.5938585 13.6689453,11.7548828 L13.6689453,18.0439453 L13.2451172,18.0439453 C12.9033203,18.0439453 12.5091146,18.0872396 12.0625,18.1738281 C11.2239583,18.3333333 10.5039062,18.7138672 9.90234375,19.3154297 C9.30078125,19.9169922 9,20.5413411 9,21.1884766 C9,21.6123047 9.13671875,21.976888 9.41015625,22.2822266 C9.68359375,22.5875651 10.0561523,22.7983398 10.527832,22.9145508 Z"/>
+        </symbol>
+
+        <symbol id="previous" viewBox="0 0 40 40">
+        	<title>Previous</title>
+        	<desc>View previous image</desc>
+            <path d="M7.198 19.397l8.113-10.15c.133-.164.292-.247.476-.247.185 0 .343.083.475.248.133.165.2.364.2.595 0 .23-.067.43-.2.595l-6.95 8.71h22.004c.193 0 .356.083.488.25.132.164.198.368.198.61 0 .232-.066.43-.198.595-.132.166-.295.248-.488.248H9.31l6.95 8.712c.133.165.2.364.2.595 0 .23-.067.43-.2.595-.06.088-.133.152-.216.19-.084.04-.17.058-.258.058s-.173-.02-.257-.058c-.085-.038-.157-.102-.22-.19L7.2 20.602C7.066 20.44 7 20.238 7 20s.066-.438.198-.603z" fill-rule="evenodd"/>
+        </symbol>
+    
+        <symbol id="next" viewBox="0 0 40 40">
+        	<title>Next</title>
+        	<desc>View next image</desc>
+            <path d="M31.802 19.397L23.69 9.247c-.133-.164-.292-.247-.476-.247-.185 0-.343.083-.475.248-.133.165-.2.364-.2.595 0 .23.067.43.2.595l6.95 8.71H7.687c-.193 0-.356.083-.488.25-.132.164-.198.368-.198.61 0 .232.066.43.198.595.132.166.295.248.488.248H29.69l-6.95 8.712c-.133.165-.2.364-.2.595 0 .23.067.43.2.595.06.088.133.152.216.19.084.04.17.058.258.058s.173-.02.257-.058c.085-.038.157-.102.22-.19l8.112-10.15c.132-.164.198-.365.198-.602s-.066-.438-.198-.603z" fill-rule="evenodd"/>
+        </symbol>
+    </svg>
+    
+    <div class="site">
+
+<header>
+
+    <h1><a href="index.html">Shout Out</a></h1>
+
+    <nav>
+    	<a href="index.html"><svg><use xlink:href="#home" /></svg></a>
+    	<ul>
+    		<li><a href="gallery.html">Gallery</a></li>
+    		<li><a href="about.html">About</a></li>
+    	</ul>
+    </nav>
+
+</header>
+
+<main>
+            
+    <section>
+            
+        <h2>Gallery</h2>
+            
+    </section>
+                    
+    
+    <section class="sound">
+    
+        
+                    <div>
+                        <h3><svg><use xlink:href="#audio" /></svg>Bryan Beat</h3>
+                        
+                        <audio controls>
+                            <source src="assets/audio/bryan-beat-mix.mp3" type="audio/ogg">
+                            <source src="assets/audio/bryan-beat-mix.mp3" type="audio/mpeg">
+                            <p>Your browser does not support the audio element.</p>
+                        </audio>
+                    </div>
+                    
+                    
+                    
+    
+        
+                    <div>
+                        <h3><svg><use xlink:href="#audio" /></svg>East Beat</h3>
+                        
+                        <audio controls>
+                            <source src="assets/audio/east-beat-mix.mp3" type="audio/ogg">
+                            <source src="assets/audio/east-beat-mix.mp3" type="audio/mpeg">
+                            <p>Your browser does not support the audio element.</p>
+                        </audio>
+                    </div>
+                    
+                    
+                    
+    
+        
+                    <div>
+                        <h3><svg><use xlink:href="#audio" /></svg>Young Beat</h3>
+                        
+                        <audio controls>
+                            <source src="assets/audio/young-beat-mix.mp3" type="audio/ogg">
+                            <source src="assets/audio/young-beat-mix.mp3" type="audio/mpeg">
+                            <p>Your browser does not support the audio element.</p>
+                        </audio>
+                    </div>
+                    
+                    
+                    
+    
+    </section><!-- .sound -->
+    
+    
+        <section class="gallery">
+        
+            
+                                <div id="thumbnail-01">
+                                    <a href="#image-01">
+                                        <img src="assets/gallery/behind-the-scenes-face.jpg" alt="Painting of face made up of different coloured parts.">
+                                    </a>
+                                    		
+                                    <figure id="image-01">
+                                        <a href="#thumbnail-01" title="close">✕</a>
+                                         
+                                            <img src="assets/gallery/behind-the-scenes-face.jpg" alt="Painting of face made up of different coloured parts.">
+                                    		<figcaption>Behind the scenes of a face.</figcaption>
+                                
+                                        <div>
+                                            <a href="#image-" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                            <a href="#image-02" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                        </div>
+                                    </figure>
+                                </div>
+                                
+                                
+                                
+        
+            
+                                    <div id="thumbnail-02">
+                                        <a href="#image-02">
+                                            <img src="assets/gallery/choose.jpg" alt="Coloured portrait of a woman with glasses on her head, wearing a t-shirt that says Choose.">
+                                        </a>
+                                        		
+                                        <figure id="image-02">
+                                            <a href="#thumbnail-02" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/choose.jpg" alt="Coloured portrait of a woman with glasses on her head, wearing a t-shirt that says Choose.">
+                                        		<figcaption>What will it be? You choose.</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-01" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-03" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-03">
+                                        <a href="#image-03">
+                                            <img src="assets/gallery/couple-laughing-outline.jpg" alt="Black and white drawing of a couple laughing.">
+                                        </a>
+                                        		
+                                        <figure id="image-03">
+                                            <a href="#thumbnail-03" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/couple-laughing-outline.jpg" alt="Black and white drawing of a couple laughing.">
+                                        		<figcaption>Laughing in the countryside.</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-02" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-04" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-04">
+                                        <a href="#image-04">
+                                            <img src="assets/gallery/couple-laughing-colour.jpg" alt="Coloured drawing of a couple laughing.">
+                                        </a>
+                                        		
+                                        <figure id="image-04">
+                                            <a href="#thumbnail-04" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/couple-laughing-colour.jpg" alt="Coloured drawing of a couple laughing.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-03" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-05" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-05">
+                                        <a href="#image-05">
+                                            <img src="assets/gallery/dancing.jpg" alt="Full length spray painted portrait of a man dancing.">
+                                        </a>
+                                        		
+                                        <figure id="image-05">
+                                            <a href="#thumbnail-05" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/dancing.jpg" alt="Full length spray painted portrait of a man dancing.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-04" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-06" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-06">
+                                        <a href="#image-06">
+                                            <img src="assets/gallery/ellis-imagination.jpg" alt="Coloured drawing of Ellis's imagination.">
+                                        </a>
+                                        		
+                                        <figure id="image-06">
+                                            <a href="#thumbnail-06" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/ellis-imagination.jpg" alt="Coloured drawing of Ellis's imagination.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-05" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-07" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-07">
+                                        <a href="#image-07">
+                                            <img src="assets/gallery/fantasy-face.jpg" alt="Coloured drawing of a fantasy face.">
+                                        </a>
+                                        		
+                                        <figure id="image-07">
+                                            <a href="#thumbnail-07" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/fantasy-face.jpg" alt="Coloured drawing of a fantasy face.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-06" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-08" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-08">
+                                        <a href="#image-08">
+                                            <img src="assets/gallery/four-heads-on-gold-disk.jpg" alt="Gold painted disk with four silhoutted heads.">
+                                        </a>
+                                        		
+                                        <figure id="image-08">
+                                            <a href="#thumbnail-08" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/four-heads-on-gold-disk.jpg" alt="Gold painted disk with four silhoutted heads.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-07" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-09" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-09">
+                                        <a href="#image-09">
+                                            <img src="assets/gallery/heart-and-key.jpg" alt="Coloured drawing of a heart with a lock and key.">
+                                        </a>
+                                        		
+                                        <figure id="image-09">
+                                            <a href="#thumbnail-09" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/heart-and-key.jpg" alt="Coloured drawing of a heart with a lock and key.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-08" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-10" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-10">
+                                        <a href="#image-10">
+                                            <img src="assets/gallery/ifs-and-buts.jpg" alt="Painted portrait of a face with two sides.">
+                                        </a>
+                                        		
+                                        <figure id="image-10">
+                                            <a href="#thumbnail-10" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/ifs-and-buts.jpg" alt="Painted portrait of a face with two sides.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-09" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-11" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-11">
+                                        <a href="#image-11">
+                                            <img src="assets/gallery/jamie-vardy.jpg" alt="Painted portrait of Jamie Vardy.">
+                                        </a>
+                                        		
+                                        <figure id="image-11">
+                                            <a href="#thumbnail-11" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/jamie-vardy.jpg" alt="Painted portrait of Jamie Vardy.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-10" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-12" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-12">
+                                        <a href="#image-12">
+                                            <img src="assets/gallery/keep-growing.jpg" alt="Coloured drawing of a head growing out of plant.">
+                                        </a>
+                                        		
+                                        <figure id="image-12">
+                                            <a href="#thumbnail-12" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/keep-growing.jpg" alt="Coloured drawing of a head growing out of plant.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-11" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-13" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-13">
+                                        <a href="#image-13">
+                                            <img src="assets/gallery/leaf.jpg" alt="Drawing of a leaf.">
+                                        </a>
+                                        		
+                                        <figure id="image-13">
+                                            <a href="#thumbnail-13" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/leaf.jpg" alt="Drawing of a leaf.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-12" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-14" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-14">
+                                        <a href="#image-14">
+                                            <img src="assets/gallery/man-with-glasses.jpg" alt="Black and white portrait of a young man wearing glasses, looking sideways.">
+                                        </a>
+                                        		
+                                        <figure id="image-14">
+                                            <a href="#thumbnail-14" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/man-with-glasses.jpg" alt="Black and white portrait of a young man wearing glasses, looking sideways.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-13" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-15" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-15">
+                                        <a href="#image-15">
+                                            <img src="assets/gallery/man-with-sunglasses.jpg" alt="Drawing in black and white of a man wearing sunglasses and a hat.">
+                                        </a>
+                                        		
+                                        <figure id="image-15">
+                                            <a href="#thumbnail-15" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/man-with-sunglasses.jpg" alt="Drawing in black and white of a man wearing sunglasses and a hat.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-14" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-16" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-16">
+                                        <a href="#image-16">
+                                            <img src="assets/gallery/mask.jpg" alt="Photograph of a man wearing a joker style mask.">
+                                        </a>
+                                        		
+                                        <figure id="image-16">
+                                            <a href="#thumbnail-16" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/mask.jpg" alt="Photograph of a man wearing a joker style mask.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-15" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-17" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-17">
+                                        <a href="#image-17">
+                                            <img src="assets/gallery/never-look-down-on-someone.jpg" alt="Red spray painted message that reads: Never look down on someone unless you're helping them up.">
+                                        </a>
+                                        		
+                                        <figure id="image-17">
+                                            <a href="#thumbnail-17" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/never-look-down-on-someone.jpg" alt="Red spray painted message that reads: Never look down on someone unless you're helping them up.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-16" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-18" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-18">
+                                        <a href="#image-18">
+                                            <img src="assets/gallery/painted-shoes-01.jpg" alt="Side and heel view of a pair of purple painted shoes. One says Ellis the other Capone.">
+                                        </a>
+                                        		
+                                        <figure id="image-18">
+                                            <a href="#thumbnail-18" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/painted-shoes-01.jpg" alt="Side and heel view of a pair of purple painted shoes. One says Ellis the other Capone.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-17" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-19" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-19">
+                                        <a href="#image-19">
+                                            <img src="assets/gallery/painted-shoes-02.jpg" alt="Side view of a pair of purple painted shoes. One says Ellis the other The Menace.">
+                                        </a>
+                                        		
+                                        <figure id="image-19">
+                                            <a href="#thumbnail-19" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/painted-shoes-02.jpg" alt="Side view of a pair of purple painted shoes. One says Ellis the other The Menace.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-18" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-20" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-20">
+                                        <a href="#image-20">
+                                            <img src="assets/gallery/painted-shoes-03.jpg" alt="Heel view of a pair of purple painted shoes. One says El the other Capone.">
+                                        </a>
+                                        		
+                                        <figure id="image-20">
+                                            <a href="#thumbnail-20" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/painted-shoes-03.jpg" alt="Heel view of a pair of purple painted shoes. One says El the other Capone.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-19" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-21" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-21">
+                                        <a href="#image-21">
+                                            <img src="assets/gallery/phoenix-looby.jpg" alt="Coloured drawing of weird things.">
+                                        </a>
+                                        		
+                                        <figure id="image-21">
+                                            <a href="#thumbnail-21" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/phoenix-looby.jpg" alt="Coloured drawing of weird things.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-20" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-22" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-22">
+                                        <a href="#image-22">
+                                            <img src="assets/gallery/photostrip.jpg" alt="Black and white photostrip of two people in a photo boot.">
+                                        </a>
+                                        		
+                                        <figure id="image-22">
+                                            <a href="#thumbnail-22" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/photostrip.jpg" alt="Black and white photostrip of two people in a photo boot.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-21" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-23" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-23">
+                                        <a href="#image-23">
+                                            <img src="assets/gallery/pink-alien.jpg" alt="Coloured drawing of a pink alien.">
+                                        </a>
+                                        		
+                                        <figure id="image-23">
+                                            <a href="#thumbnail-23" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/pink-alien.jpg" alt="Coloured drawing of a pink alien.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-22" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-24" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-24">
+                                        <a href="#image-24">
+                                            <img src="assets/gallery/spider-man.jpg" alt="Black and white portrait of Spider Man in profile.">
+                                        </a>
+                                        		
+                                        <figure id="image-24">
+                                            <a href="#thumbnail-24" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/spider-man.jpg" alt="Black and white portrait of Spider Man in profile.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-23" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-25" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-25">
+                                        <a href="#image-25">
+                                            <img src="assets/gallery/sponge-bob-says-good-morning.jpg" alt="Drawing of Sponge Bob saying Good Morning.">
+                                        </a>
+                                        		
+                                        <figure id="image-25">
+                                            <a href="#thumbnail-25" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/sponge-bob-says-good-morning.jpg" alt="Drawing of Sponge Bob saying Good Morning.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-24" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-26" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-26">
+                                        <a href="#image-26">
+                                            <img src="assets/gallery/the-dance-around-the-fire.jpg" alt="Drawing of two mythical figures dancing around a fire.">
+                                        </a>
+                                        		
+                                        <figure id="image-26">
+                                            <a href="#thumbnail-26" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/the-dance-around-the-fire.jpg" alt="Drawing of two mythical figures dancing around a fire.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-25" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-27" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-27">
+                                        <a href="#image-27">
+                                            <img src="assets/gallery/woman-and-man-about-to-kiss.jpg" alt="Colour photograph of a woman and man about to kiss.">
+                                        </a>
+                                        		
+                                        <figure id="image-27">
+                                            <a href="#thumbnail-27" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/woman-and-man-about-to-kiss.jpg" alt="Colour photograph of a woman and man about to kiss.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-26" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-28" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-28">
+                                        <a href="#image-28">
+                                            <img src="assets/gallery/woman-and-man-in-black-and-white.jpg" alt="Black and white photograph of a woman and man sticking out their tongues.">
+                                        </a>
+                                        		
+                                        <figure id="image-28">
+                                            <a href="#thumbnail-28" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/woman-and-man-in-black-and-white.jpg" alt="Black and white photograph of a woman and man sticking out their tongues.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-27" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-29" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-29">
+                                        <a href="#image-29">
+                                            <img src="assets/gallery/woman-sticking-up-two-fingers.jpg" alt="Colour photograph of a woman wearing a yellow top, sticking up two fingers.">
+                                        </a>
+                                        		
+                                        <figure id="image-29">
+                                            <a href="#thumbnail-29" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/woman-sticking-up-two-fingers.jpg" alt="Colour photograph of a woman wearing a yellow top, sticking up two fingers.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-28" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-30" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-30">
+                                        <a href="#image-30">
+                                            <img src="assets/gallery/woman-and-man-pulling-faces.jpg" alt="Black and white photograph of a woman and man pulling faces.">
+                                        </a>
+                                        		
+                                        <figure id="image-30">
+                                            <a href="#thumbnail-30" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/woman-and-man-pulling-faces.jpg" alt="Black and white photograph of a woman and man pulling faces.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-29" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-31" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-31">
+                                        <a href="#image-31">
+                                            <img src="assets/gallery/woman-between-the-moon-and-sun.jpg" alt="Portrait of a woman with the moon and the sun. Her hair is made of stars and clouds.">
+                                        </a>
+                                        		
+                                        <figure id="image-31">
+                                            <a href="#thumbnail-31" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/woman-between-the-moon-and-sun.jpg" alt="Portrait of a woman with the moon and the sun. Her hair is made of stars and clouds.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-30" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-32" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-32">
+                                        <a href="#image-32">
+                                            <img src="assets/gallery/woman-drinking-coffee-pixelated.jpg" alt="Black and white portrait of a woman drinking coffee.">
+                                        </a>
+                                        		
+                                        <figure id="image-32">
+                                            <a href="#thumbnail-32" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/woman-drinking-coffee-pixelated.jpg" alt="Black and white portrait of a woman drinking coffee.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-31" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-33" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-33">
+                                        <a href="#image-33">
+                                            <img src="assets/gallery/woman-drinking-coffee.jpg" alt="Black and white portrait of a woman drinking coffee.">
+                                        </a>
+                                        		
+                                        <figure id="image-33">
+                                            <a href="#thumbnail-33" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/woman-drinking-coffee.jpg" alt="Black and white portrait of a woman drinking coffee.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-32" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-34" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-34">
+                                        <a href="#image-34">
+                                            <img src="assets/gallery/woman-in-beret.jpg" alt="Black and white portrait of a woman wearing a beret.">
+                                        </a>
+                                        		
+                                        <figure id="image-34">
+                                            <a href="#thumbnail-34" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/woman-in-beret.jpg" alt="Black and white portrait of a woman wearing a beret.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-33" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-35" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-35">
+                                        <a href="#image-35">
+                                            <img src="assets/gallery/woman-with-glasses.jpg" alt="Black and white portrait of a young woman with glasses and long hair.">
+                                        </a>
+                                        		
+                                        <figure id="image-35">
+                                            <a href="#thumbnail-35" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/woman-with-glasses.jpg" alt="Black and white portrait of a young woman with glasses and long hair.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-34" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-36" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-36">
+                                        <a href="#image-36">
+                                            <img src="assets/gallery/young-girl-leaning-to-one-side.jpg" alt="Black and white portrait of a young girl leaning to one side.">
+                                        </a>
+                                        		
+                                        <figure id="image-36">
+                                            <a href="#thumbnail-36" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/young-girl-leaning-to-one-side.jpg" alt="Black and white portrait of a young girl leaning to one side.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-35" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-37" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-37">
+                                        <a href="#image-37">
+                                            <img src="assets/gallery/young-man-looking-content.jpg" alt="Black and white portrait of a young man wearing glasses, and looking content.">
+                                        </a>
+                                        		
+                                        <figure id="image-37">
+                                            <a href="#thumbnail-37" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/young-man-looking-content.jpg" alt="Black and white portrait of a young man wearing glasses, and looking content.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-36" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-38" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-38">
+                                        <a href="#image-38">
+                                            <img src="assets/gallery/young-man-smiling.jpg" alt="Black and white portrait of a young man smiling, looking sideways.">
+                                        </a>
+                                        		
+                                        <figure id="image-38">
+                                            <a href="#thumbnail-38" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/young-man-smiling.jpg" alt="Black and white portrait of a young man smiling, looking sideways.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-37" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-39" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-39">
+                                        <a href="#image-39">
+                                            <img src="assets/gallery/young-woman-looking-at-you.jpg" alt="Black and white portrait of a young woman looking ahead.">
+                                        </a>
+                                        		
+                                        <figure id="image-39">
+                                            <a href="#thumbnail-39" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/young-woman-looking-at-you.jpg" alt="Black and white portrait of a young woman looking ahead.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-38" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-40" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-40">
+                                        <a href="#image-40">
+                                            <img src="assets/gallery/woman-wearing-trainers.jpg" alt="Full length portrait of a smiling woman wearing a black t-shirt.">
+                                        </a>
+                                        		
+                                        <figure id="image-40">
+                                            <a href="#thumbnail-40" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/woman-wearing-trainers.jpg" alt="Full length portrait of a smiling woman wearing a black t-shirt.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-39" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-41" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-41">
+                                        <a href="#image-41">
+                                            <img src="assets/gallery/man-standing-tall.jpg" alt="Full length portrait of a man made with spray paint.">
+                                        </a>
+                                        		
+                                        <figure id="image-41">
+                                            <a href="#thumbnail-41" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/man-standing-tall.jpg" alt="Full length portrait of a man made with spray paint.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-40" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-42" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                    <div id="thumbnail-42">
+                                        <a href="#image-42">
+                                            <img src="assets/gallery/mosaic-person.jpg" alt="Mosaic made of large painted squares.">
+                                        </a>
+                                        		
+                                        <figure id="image-42">
+                                            <a href="#thumbnail-42" title="close">✕</a>
+                                             
+                                                <img src="assets/gallery/mosaic-person.jpg" alt="Mosaic made of large painted squares.">
+                                        		<figcaption>..</figcaption>
+                                    
+                                            <div>
+                                                <a href="#image-41" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                                <a href="#image-43" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    
+                                    
+                                    
+        
+            
+                                <div id="thumbnail-43">
+                                    <a href="#image-43">
+                                        <img src="assets/gallery/woman-standing-tall.jpg" alt="Full length portrait of a woman with blond hair wearing a dark top, light cut off trousers and trainers.">
+                                    </a>
+                                    		
+                                    <figure id="image-43">
+                                        <a href="#thumbnail-43" title="close">✕</a>
+                                         
+                                            <img src="assets/gallery/woman-standing-tall.jpg" alt="Full length portrait of a woman with blond hair wearing a dark top, light cut off trousers and trainers.">
+                                    		<figcaption>..</figcaption>
+                                
+                                        <div>
+                                            <a href="#image-42" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+                                            <a href="#image-43" title="Next"><svg><use xlink:href="#next" /></svg></a>
+                                        </div>
+                                    </figure>
+                                </div>
+                                
+                                
+                                
+        
+        </section><!-- .gallery -->
+        
+
+</main>
+    
+
+        <footer>
+        
+            <ul>
+            	<li>
+                    <a href="" rel="external">
+                        <img src="assets/images/arts-council-england.jpg" alt="Arts Council England logo.">
+                    </a>
+                </li>
+            	<li>
+                    <a href="" rel="external">
+                        <img src="assets/images/leicester-city-council.jpg" alt="Leicester City Council logo.">
+                    </a>
+                </li>
+            	<li>
+                    <a href="" rel="external">
+                        <img src="assets/images/leicestershire-nhs.jpg" alt="Leicestershire Partnership NHS Trust logo.">
+                    </a>
+                </li>
+            	<li>
+                    <a href="" rel="external">
+                        <img src="assets/images/everybody-is-reading.jpg" alt="Everybody's Reading logo.">
+                    </a>
+                </li>
+            	<li>
+                    <a href="https://www.leicesterymca.co.uk/" rel="external">
+                        <img src="assets/images/the-y.jpg" alt="The Y logo.">
+                    </a>
+                </li>
+            	<li>
+                    <a href="https://parklodgeproject.org/" rel="external">
+                        <img src="assets/images/park-lodge-project.jpg" alt="Park Lodge Project logo.">
+                    </a>
+                </li>
+            	<li>
+                    <a href="https://www.soft-touch.org.uk/" rel="external">
+                        <img src="assets/images/soft-touch.jpg" alt="Soft Touch Arts logo.">
+                    </a>
+                </li>
+            </ul>
+        
+            <p>Copyright &copy; 2020 Shout Out.</p>
+        
+            <p class="author"><a href="https://www.jokedewinter.co.uk" rel="external">Web design by Joke De Winter.</a></p>
+        
+        </footer>
+
+    </div><!-- .site -->
+    
+</body>
+</html>
+
