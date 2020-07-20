@@ -96,7 +96,7 @@ svg {
 :root {
 	--col-text: #000;
 	--col-text-reverse: #fff;
-	--col-border: #abab9e; //#979797;
+	--col-border: #abab9e;
     --col-hover: #5b5b6e;
 	--col-page: #fff;
 }
@@ -355,7 +355,20 @@ figure div {
     justify-content: space-between;
 }
 
+.sound p {
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-bottom: 1em;
+    color: var(--col-border);
+}
+
 audio { margin-bottom: 3em; }
+
 
 
 /**
@@ -377,9 +390,7 @@ footer ul {
     margin-bottom: 5em;
 }
 
-footer ul li {
-    padding: 0.5em 0;
-}
+footer ul li { padding: 0.5em 0; }
 
 
 /**
