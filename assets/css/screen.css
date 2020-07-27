@@ -198,8 +198,8 @@ a {
 
 a:hover svg { fill: var(--col-text); }
 
-p a { border-bottom: 1px solid var(--col-text); }
-p a:hover { color: var(--col-hover); }
+section p a { border-bottom: 1px solid var(--col-text); }
+section p a:hover { color: var(--col-hover); }
 
 
 /**
@@ -394,6 +394,8 @@ footer ul {
 }
 
 footer ul li { padding: 0.5em 0; }
+
+footer svg { margin-bottom: 0.3em; }
 
 
 /**
