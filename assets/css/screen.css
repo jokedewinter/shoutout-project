@@ -198,6 +198,9 @@ a {
 
 a:hover svg { fill: var(--col-text); }
 
+p a { border-bottom: 1px solid var(--col-text); }
+p a:hover { color: var(--col-hover); }
+
 
 /**
  * ------------------------------------------------------------- 
