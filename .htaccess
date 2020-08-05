@@ -1,0 +1,3 @@
+RewriteCond %{HTTP_HOST} ^www.shoutout-project.co.uk$
+RewriteCond %{SERVER_PORT} ^443
+RewriteRule ^(.*)$ https://shoutout-project.co.uk/$1 [R=301]
