@@ -1,0 +1,20 @@
+
+<div id="thumbnail-<!-- $number -->">
+    <a href="#image-<!-- $number -->">
+        <img src="<!-- $image_file -->" alt="<!-- $image_alt -->">
+    </a>
+    		
+    <figure id="image-<!-- $number -->">
+        <a href="#thumbnail-<!-- $number -->" title="close">✕</a>
+         
+            <img src="<!-- $image_file -->" alt="<!-- $image_alt -->">
+    		<figcaption><!-- $image_caption --></figcaption>
+
+        <div>
+            <a href="#image-<!-- $previous? -->" title="Previous"><svg><use xlink:href="#previous" /></svg></a>
+            <a href="#image-<!-- $next? -->" title="Next"><svg><use xlink:href="#next" /></svg></a>
+        </div>
+    </figure>
+</div>
+
+

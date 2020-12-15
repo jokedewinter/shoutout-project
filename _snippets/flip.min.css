@@ -1,0 +1,3 @@
+.display{height:0;opacity:0;display:flex;flex-direction:column;justify-content:space-between}.display:target{opacity:1;width:100vw;height:100vh;max-height:100vh;position:absolute;top:0;left:50%;right:50%;margin:0 -50vw;z-index:100;background:#fff;padding:1em 3em}.display img{align-self:center;max-height:768px;height:75%;width:auto;max-width:auto}figcaption{font-size:12px;text-transform:uppercase;letter-spacing:2px;color:#5b5b6e;align-self:center}.close{display:block;font-size:36px;color:#ccc;text-align:right}
+
+/*# sourceMappingURL=flip.min.css.map */

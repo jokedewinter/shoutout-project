@@ -1,0 +1,37 @@
+
+<!--
+  -- Separate button to close the image.
+  -->
+  
+<div>
+    <a href="#image-01">
+        <img src="gallery/behind-the-scenes-face.jpg" alt="">
+    </a>
+			
+	<figure id="image-01" class="display">
+		<a class="close" href="#z" title="close">✕</a>
+        <img src="gallery/behind-the-scenes-face.jpg" alt="">
+		<figcaption>Behind the scenes of a face.</figcaption>
+	</figure>
+</div>
+
+
+
+<!--
+  -- The large image is the button to close the lot.
+  -->
+
+<div>
+    <a href="#image-02">
+        <img src="gallery/choose.jpg" alt="">
+    </a>
+			
+	<a href="#z">
+    	<figure id="image-02" class="display">
+    		<button type="button" class="close" value="close">✕</button>
+            <img src="gallery/choose.jpg" alt="">
+    		<figcaption>Behind the scenes of a face.</figcaption>
+    	</figure>
+    </a>
+</div>
+
