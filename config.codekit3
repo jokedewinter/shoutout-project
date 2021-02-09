@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
+"AAInfo": "This is a CodeKit 3 project config file. EDITING THIS FILE IS A POOR LIFE DECISION. Doing so may cause CodeKit to crash and/or corrupt your project. Several critical values in this file are 64-bit integers, which JavaScript JSON parsers do not support because JavaScript cannot handle 64-bit integers. These values will be corrupted if the file is parsed with JavaScript. This file is not backwards-compatible with CodeKit 1 or 2. For details, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,7 +7,7 @@
 		"uuidString": "4C13C463-BC4B-4A79-B507-3F94D33C5DC0"
 		}
 	],
-"creatorBuild": "32147",
+"creatorBuild": "33081",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -282,7 +282,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/001-behind-the-scenes-face.jpeg": {
 		"ft": 16384,
@@ -293,7 +295,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/002-ifs-and-buts.jpeg": {
 		"ft": 16384,
@@ -304,7 +308,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/003-jamie-vardy-scale.jpg": {
 		"ft": 16384,
@@ -315,7 +321,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/003-jamie-vardy.jpeg": {
 		"ft": 16384,
@@ -326,7 +334,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/004-young-girl-leaning-to-one-side.jpeg": {
 		"ft": 16384,
@@ -337,7 +347,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/005-couple-laughing-colour.jpeg": {
 		"ft": 16384,
@@ -348,7 +360,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/006-woman-with-glasses.jpeg": {
 		"ft": 16384,
@@ -359,7 +373,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/007-phoenix-looby.jpeg": {
 		"ft": 16384,
@@ -370,7 +386,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/008-heart-and-key.jpeg": {
 		"ft": 16384,
@@ -381,7 +399,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/009-leaf.jpeg": {
 		"ft": 16384,
@@ -392,7 +412,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/010-four-heads-on-gold-disk.jpeg": {
 		"ft": 16384,
@@ -403,7 +425,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/011-painted-shoes-01.jpeg": {
 		"ft": 16384,
@@ -414,7 +438,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/012-painted-shoes-03.jpeg": {
 		"ft": 16384,
@@ -425,7 +451,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/013-painted-shoes-02.jpeg": {
 		"ft": 16384,
@@ -436,7 +464,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/014-man-standing-tall.jpg": {
 		"ft": 16384,
@@ -447,7 +477,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/015-ellis-imagination.jpeg": {
 		"ft": 16384,
@@ -458,7 +490,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/016-the-dance-around-the-fire.jpeg": {
 		"ft": 16384,
@@ -469,7 +503,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/017-woman-in-beret.jpeg": {
 		"ft": 16384,
@@ -480,7 +516,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/018-young-woman-looking-at-you.jpeg": {
 		"ft": 16384,
@@ -491,7 +529,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/019-woman-wearing-trainers.jpeg": {
 		"ft": 16384,
@@ -502,7 +542,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/020-mosaic-person.jpeg": {
 		"ft": 16384,
@@ -513,7 +555,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/021-young-man-smiling.jpeg": {
 		"ft": 16384,
@@ -524,7 +568,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/022-spider-man.jpeg": {
 		"ft": 16384,
@@ -535,7 +581,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/023-fantasy-face.jpeg": {
 		"ft": 16384,
@@ -546,7 +594,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/024-pink-alien.jpeg": {
 		"ft": 16384,
@@ -557,7 +607,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/025-young-man-looking-content.jpeg": {
 		"ft": 16384,
@@ -568,7 +620,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/026-woman-and-man-in-black-and-white.JPG": {
 		"ft": 16384,
@@ -579,7 +633,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/027-woman-and-man-about-to-kiss.JPG": {
 		"ft": 16384,
@@ -590,7 +646,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/028-woman-and-man-pulling-faces.JPG": {
 		"ft": 16384,
@@ -601,7 +659,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/029-woman-sticking-up-two-fingers.JPG": {
 		"ft": 16384,
@@ -612,7 +672,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/030-never-look-down-on-someone.JPG": {
 		"ft": 16384,
@@ -623,7 +685,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/031-dancing.jpg": {
 		"ft": 16384,
@@ -634,7 +698,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/032-woman-drinking-coffee.jpeg": {
 		"ft": 16384,
@@ -645,7 +711,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/033-keep-growing.jpeg": {
 		"ft": 16384,
@@ -656,7 +724,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/034-woman-between-the-moon-and-sun.jpeg": {
 		"ft": 16384,
@@ -667,7 +737,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/035-choose.jpeg": {
 		"ft": 16384,
@@ -678,7 +750,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/036-man-with-glasses.jpeg": {
 		"ft": 16384,
@@ -689,7 +763,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/037-man-with-sunglasses-and-hat.jpeg": {
 		"ft": 16384,
@@ -700,7 +776,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/038-couple-laughing-outline.jpeg": {
 		"ft": 16384,
@@ -711,7 +789,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/039-mask.jpg": {
 		"ft": 16384,
@@ -722,7 +802,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/040-woman-standing-tall.jpeg": {
 		"ft": 16384,
@@ -733,7 +815,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/041-photostrip.jpeg": {
 		"ft": 16384,
@@ -744,7 +828,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/042-woman-drinking-coffee-pixelated.JPG": {
 		"ft": 16384,
@@ -755,7 +841,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/gallery/043-sponge-bob-says-good-morning.jpeg": {
 		"ft": 16384,
@@ -766,7 +854,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/images/arts-council-england.jpg": {
 		"ft": 16384,
@@ -777,7 +867,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/images/everybody-is-reading.jpg": {
 		"ft": 16384,
@@ -788,7 +880,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/images/jokedewinter.svg": {
 		"ft": 2097152,
@@ -809,7 +903,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/images/leicestershire-nhs.jpg": {
 		"ft": 16384,
@@ -820,7 +916,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/images/park-lodge-project.jpg": {
 		"ft": 16384,
@@ -831,7 +929,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/images/soft-touch.jpg": {
 		"ft": 16384,
@@ -842,7 +942,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/images/the-y.jpg": {
 		"ft": 16384,
@@ -853,7 +955,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/assets/video/shout-out-poster-frame.jpg": {
 		"ft": 16384,
@@ -864,7 +968,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/CNAME": {
 		"cB": 0,
@@ -1381,8 +1487,7 @@
 			"optionString": "{'before': true, 'after': true}"
 			},
 		"block-scoped-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"block-spacing": {
 			"active": 0,
@@ -1437,20 +1542,20 @@
 			"optionString": "'that'"
 			},
 		"constructor-super": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"curly": {
 			"active": 0,
 			"optionString": "'all'"
 			},
 		"default-case": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
+			},
+		"default-case-last": {
+			"active": 0
 			},
 		"default-param-last": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"dot-location": {
 			"active": 0,
@@ -1469,8 +1574,7 @@
 			"optionString": "'always', {'null': 'always'}"
 			},
 		"for-direction": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"func-call-spacing": {
 			"active": 0,
@@ -1501,16 +1605,14 @@
 			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"grouped-accessor-pairs": {
 			"active": 0,
 			"optionString": "'anyOrder'"
 			},
 		"guard-for-in": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"handle-callback-err": {
 			"active": 0,
@@ -1625,44 +1727,35 @@
 			"optionString": "{'ignoreChainWithDepth': 2}"
 			},
 		"no-alert": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-array-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-async-promise-executor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-await-in-loop": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
 			},
 		"no-buffer-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-caller": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-case-declarations": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-class-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-compare-neg-zero": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-cond-assign": {
 			"active": 1,
@@ -1677,124 +1770,101 @@
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-constant-condition": {
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
 		"no-constructor-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-continue": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-control-regex": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-debugger": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-delete-var": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-div-regex": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-dupe-args": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-class-members": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-else-if": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-keys": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-duplicate-imports": {
 			"active": 0,
 			"optionString": "{'includeExports': false}"
 			},
 		"no-else-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-empty": {
 			"active": 1,
 			"optionString": "{'allowEmptyCatch': false}"
 			},
 		"no-empty-character-class": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-empty-function": {
 			"active": 0,
 			"optionString": "{'allow': []}"
 			},
 		"no-empty-pattern": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-eq-null": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-eval": {
 			"active": 0,
 			"optionString": "{'allowIndirect': false}"
 			},
 		"no-ex-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-extend-native": {
 			"active": 0,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-extra-bind": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-extra-boolean-cast": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-extra-labels": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-extra-parens": {
 			"active": 0,
 			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false, 'enforceForSequenceExpressions': false, 'enforceForNewInMemberExpressions': false}"
 			},
 		"no-extra-semi": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-fallthrough": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-floating-decimal": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-func-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-global-assign": {
 			"active": 1,
@@ -1805,20 +1875,16 @@
 			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
 			},
 		"no-implicit-globals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-implied-eval": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-import-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-inline-comments": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-inner-declarations": {
 			"active": 1,
@@ -1837,36 +1903,33 @@
 			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
 			},
 		"no-iterator": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-label-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-labels": {
 			"active": 0,
 			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
 			},
 		"no-lone-blocks": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-lonely-if": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-loop-func": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
+			},
+		"no-loss-of-precision": {
+			"active": 0
 			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
 		"no-misleading-character-class": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-mixed-operators": {
 			"active": 0,
@@ -1881,108 +1944,95 @@
 			"optionString": ""
 			},
 		"no-multi-assign": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
 			},
 		"no-multi-str": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-multiple-empty-lines": {
 			"active": 0,
 			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
 			},
 		"no-negated-condition": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-nested-ternary": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-func": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-object": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-require": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-symbol": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-new-wrappers": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-obj-calls": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-octal": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-octal-escape": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-param-reassign": {
 			"active": 0,
 			"optionString": "{'props': false}"
 			},
 		"no-path-concat": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-plusplus": {
 			"active": 0,
 			"optionString": "{'allowForLoopAfterthoughts': false}"
 			},
 		"no-process-env": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-process-exit": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
+			},
+		"no-promise-executor-return": {
+			"active": 0
 			},
 		"no-proto": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-prototype-builtins": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
 			},
 		"no-regex-spaces": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
+			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
 			},
 		"no-restricted-globals": {
 			"active": 0,
 			"optionString": "'event', 'fdescribe'"
 			},
 		"no-restricted-imports": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-restricted-modules": {
 			"active": 0,
@@ -2001,40 +2051,33 @@
 			"optionString": "'except-parens'"
 			},
 		"no-return-await": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-script-url": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-self-assign": {
 			"active": 1,
 			"optionString": "{'props': true}"
 			},
 		"no-self-compare": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-sequences": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-setter-return": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
 			},
 		"no-shadow-restricted-names": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-sparse-arrays": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-sync": {
 			"active": 0,
@@ -2045,20 +2088,16 @@
 			"optionString": "{allowIndentationTabs: false}"
 			},
 		"no-template-curly-in-string": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-ternary": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-this-before-super": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-throw-literal": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-trailing-spaces": {
 			"active": 0,
@@ -2069,36 +2108,34 @@
 			"optionString": "{'typeof': false}"
 			},
 		"no-undef-init": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-undefined": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-underscore-dangle": {
 			"active": 0,
 			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unmodified-loop-condition": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-unneeded-ternary": {
 			"active": 0,
 			"optionString": "{'defaultAssignment': true}"
 			},
 		"no-unreachable": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
+			},
+		"no-unreachable-loop": {
+			"active": 0,
+			"optionString": "{'ignore': []}"
 			},
 		"no-unsafe-finally": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unsafe-negation": {
 			"active": 1,
@@ -2109,8 +2146,7 @@
 			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
 			},
 		"no-unused-labels": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unused-vars": {
 			"active": 1,
@@ -2120,41 +2156,37 @@
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
+		"no-useless-backreference": {
+			"active": 0
+			},
 		"no-useless-call": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-catch": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": "{'enforceForClassMembers': false}"
 			},
 		"no-useless-concat": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-escape": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-rename": {
 			"active": 0,
 			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
 			},
 		"no-useless-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-void": {
 			"active": 0,
@@ -2165,12 +2197,10 @@
 			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
 			},
 		"no-whitespace-before-property": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-with": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"nonblock-statement-body-position": {
 			"active": 0,
@@ -2217,8 +2247,7 @@
 			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
 			},
 		"prefer-arrow-callback": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-const": {
 			"active": 0,
@@ -2229,40 +2258,32 @@
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-exponentiation-operator": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-named-capture-group": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-numeric-literals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-object-spread": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-regex-literals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-rest-params": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-spread": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-template": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"quote-props": {
 			"active": 0,
@@ -2277,24 +2298,20 @@
 			"optionString": "'always'"
 			},
 		"require-atomic-updates": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-await": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
 			},
 		"require-unicode-regexp": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-yield": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"rest-spread-spacing": {
 			"active": 0,
@@ -2357,8 +2374,7 @@
 			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"template-curly-spacing": {
 			"active": 0,
@@ -2385,16 +2401,14 @@
 			"optionString": "{'requireStringLiterals': true}"
 			},
 		"vars-on-top": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"wrap-iife": {
 			"active": 0,
 			"optionString": "'outside'"
 			},
 		"wrap-regex": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"yield-star-spacing": {
 			"active": 0,
@@ -2789,7 +2803,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsHAML": {
 		"autoOutputAction": 0,
@@ -2815,7 +2831,9 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"outputFormat": 0,
-		"quality": 100
+		"quality": 100,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2907,7 +2925,9 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"optimizerType": 1,
-		"quality": 100
+		"quality": 100,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -3308,6 +3328,8 @@
 		},
 	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$,exports,require",
+	"webpPresets": {
+		},
 	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "3"
